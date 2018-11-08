@@ -2,7 +2,7 @@ function sayConsole () {
   console.log("Hello, World!");
 }
 function sayPopup () {
-  alert("Hello, World");
+  alert("Hello, World!");
 }
 function sayBrowser () {
   var p = document.getElementById ("hello");
