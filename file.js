@@ -8,4 +8,11 @@ function sayBrowser () {
 function sayPopup () {
   alert("Hello, World");
 }
-function say
+function sayHello () {
+  var text;
+  var person = prompt("Please Enter Your Name");
+  if (person != null) {
+     document.getElementbyId("stranger").innerHTML = 
+     "Hello " + person "!";
+  }
+
